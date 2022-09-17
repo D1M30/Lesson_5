@@ -1,0 +1,154 @@
+@font-face {
+   font-family:methodmono ;
+   src: url("../fonts/MethodMono-Regular.woff2") format("woff2"),
+   url("../fonts/MethodMono-Regular.woff") format("woff");
+   font-display: swap;
+   font-weight: 400;
+   font-style: normal;
+}
+
+@font-face {
+   font-family:methodmono ;
+   src: url("../fonts/MethodMono-Italic.woff2") format("woff2"),
+   url("../fonts/MethodMono-Italic.woff") format("woff");
+   font-display: swap;
+   font-weight: 400;
+   font-style:italic ;
+}
+
+@font-face {
+   font-family:methodmono ;
+   src: url("../fonts/MethodMono-Bold.woff2") format("woff2"),
+   url("../fonts/MethodMono-Bold.woff") format("woff");
+   font-display: swap;
+   font-weight: 700;
+   font-style: normal;
+}
+
+@font-face {
+   font-family:vskansascesual ;
+   src: url("../fonts/VCKansasCasual-Light.woff2") format("woff2"),
+   url("../fonts/VCKansasCasual-Light.woff") format("woff");
+   font-display: swap;
+   font-weight: 300;
+   font-style: normal;
+}
+
+
+
+body{
+   font-family:methodmono, serif;
+   font-size: 20px;
+   background-color: rgb(133, 133, 125);
+}
+
+
+.title{
+   padding:15px 0 ;
+   background-color: rgb(148, 191, 213);
+   text-align: center;
+   font-weight: 700;
+   color: rgb(20, 19, 110);
+   text-shadow: -3px -1px 3px #435ce6, 4px -2px 5px rgb(118, 84, 84);
+}
+
+.navigation{
+   width: 700px;
+   background-color: rgb(205, 168, 212);
+}
+
+.list{
+   font-family: serif;
+   font-style: italic;
+   padding: 10px 90px; 
+   text-decoration:underline ;
+   text-transform: uppercase;
+}
+
+.one{
+   color: rgb(59, 101, 10);
+}
+
+.two{
+   color: blue;
+}
+
+.three{
+   color: rgb(78, 64, 10);
+}
+
+.block-subtitle{
+   background-color: rgb(231, 195, 195);
+   width: 900px;
+   margin-left:100px;
+   padding: 20px 0;
+}
+
+.subtitle{
+   font-family: vskansascesual;
+   text-align: center;
+}
+
+.block-one{
+   background-color: rgb(181, 198, 185);
+   padding: 10px;
+}
+
+.block-one>p{
+   text-align: right;
+   letter-spacing: 1px;
+   font-size: 14px;
+}
+
+.pek{
+   margin-left: 100px;
+}
+
+p.text-one{
+   text-align: left;
+   font-family: methodmono;
+   font-style: italic;
+   word-spacing: 10px;
+}
+
+div>p>span{
+   text-decoration:line-through;
+   color: deepskyblue;
+}
+
+.block-two{
+   background-color: rgb(119, 89, 125);
+   margin: 10px 0;
+   letter-spacing: 2px;
+   text-transform: capitalize;
+   line-height: 0.9;
+}
+
+.pic{
+   margin: -10px 0 0 90px ;
+   
+}
+
+.contact{
+   font-family: vskansascesual;
+   font-size: 22px;
+   width: 500px;
+}
+
+.internet{
+   background-color: rgb(224, 231, 99);
+   margin-bottom: 5px;
+   text-shadow:3px 2px 4px rgb(13, 16, 234) ;
+}
+
+.phone{
+   background-color: rgb(84, 131, 3);
+   text-shadow: 3px 5px 2px rgb(68, 73, 237);
+}
+
+.back{
+   width: 50px;
+   text-align: center;
+   background-color: rgb(104, 104, 213);
+margin-top: 20px;
+}
